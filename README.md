@@ -1,0 +1,2 @@
+# bitMobile
+Bachelors degree project
