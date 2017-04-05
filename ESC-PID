@@ -24,7 +24,7 @@ int main(void)
 		//TODO: reset timer
 		//TODO: maybe write code to escape loop on receiving keyboard interrupt?
 		error = v_ref - v; 
-		derivative = error/dt;
+		derivative = (error - error_prior)/dt;
 		output = KP*error + KD*derivative + bias;
 		error_prior = error;
 		
