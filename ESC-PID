@@ -17,7 +17,7 @@ double bias = 0; //maybe not include
 
 int main(void)
 {
-	//Feedback loop
+	//Feedback loop not in main
 	
 	while(1)
 	{
