@@ -20,7 +20,18 @@ double bias = 0; //maybe not include
 int main(void)
 {
 	//Feedback loop
-	
+
+	if (Distance = notDetected)
+	{	
+		v_ref = cruise;
+
+	} 
+	else if (distance = detected) 
+	{
+		v_ref = low;
+	}
+		
+	else if (distance = 	
 	while(1)
 	{
 		//TODO: reset timer
