@@ -20,7 +20,7 @@ struct PID_DATA pidData;
  * TIME_INTERVAL = ( desired interval [sec] ) * ( frequency [Hz] ) / 255
  */
 
-#define TIME_INTERVAL 157 //EXAMPLE
+#define TIME_INTERVAL 157 //EXAMPLE //TODO
 
 ISR(TIMER0_OVF_vect)
 {
@@ -43,17 +43,17 @@ void Init(void)
 	TIMSK0 = (1 << TOIE0);
 	TCNT0  = 0;
 }
-int16_t Get_Reference(void)
+int16_t Get_Reference(void) //TODO
 {
-	return 8;
+	return 8; 
 }
 
-int16_t Get_Measurement(void)
+int16_t Get_Measurement(void) //TODO
 {
-	return 4;
+	return 4; 
 }
 
-void Set_Input(int16_t inputValue)
+void Set_Input(int16_t inputValue) //TODO
 {
 	;
 }
