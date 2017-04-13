@@ -23,6 +23,7 @@ double detected = 1;
 double close = 0.5;
 double cruise;
 double low;
+double lowrwe4w;
 
 int pidController(double d_lateral)
 {
