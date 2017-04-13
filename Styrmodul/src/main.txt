@@ -1,0 +1,22 @@
+//
+//  main.c
+//  homeWork
+//
+//  Created by Mathias Dalshagen on 2017-04-11.
+//  Copyright © 2017 Mathias Dalshagen. All rights reserved.
+//
+
+#include <stdio.h>
+#include "fuzzy_speed_controller.h"
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    
+    printf("Hello, World!\n");
+    for ( int i = 0; i<29;i++)
+    {
+        get_measurements(2780, 300-10*i);
+        FLC_road();
+    }
+    return 0;
+}
